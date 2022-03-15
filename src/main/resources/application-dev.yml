@@ -1,0 +1,8 @@
+spring:
+  security:
+    user:
+      # Overridden by environment variables when deployed
+      name: test
+      password: test
+server:
+  port: 8080
